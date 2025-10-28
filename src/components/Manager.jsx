@@ -23,7 +23,7 @@ const Manager = () => {
     }, [])
 
     const showPassword = () => {
-        if (ref.current.src.includes("transparent_icon.png")) {
+        if (ref.current.src.includes("/transparent_icon.png")) {
             alert("hide the password")
             ref.current.src = "https://www.svgrepo.com/show/380010/eye-password-show.svg"
             passwordRef.current.type = "password"
